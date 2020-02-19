@@ -5,10 +5,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className = "header">
+      <div className = "App-header">
       <h1>NASA Photo of the Day</h1>
       </div>
+      <div className = "App-body">
       <NasaCard />
+      </div>
     </div>
   );
 }
