@@ -6,7 +6,9 @@ const NasaData = props => {
             <h2>{props.title}</h2> 
             <h3> Date: {props.date}</h3>
             <img className = "nasaimage" alt="nasa here" src = {props.url}/>
+            <div class = "para">
             <p>{props.explanation}</p>
+            </div>
         </div>
     )
 }
