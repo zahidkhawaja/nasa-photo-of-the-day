@@ -6,7 +6,7 @@ export default function NasaCard() {
     const [nasaphoto, setNasaPhoto] = useState("");
 
     useEffect(() => {
-        axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
+        axios.get("https://api.nasa.gov/planetary/apod?api_key=fUkBjsEiWIqFvwi2I0pM7NidBIu2qgggpRsmO9sf")
             .then(response => {
                 setNasaPhoto(response.data);
             })
