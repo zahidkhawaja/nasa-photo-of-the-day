@@ -1,5 +1,6 @@
 import React from "react";
 import NasaCard from "./components/NasaCard";
+import AlertUser from "./components/AlertUser";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className = "App-header">
       <h1>NASA Photo of the Day</h1>
       </div>
+      <AlertUser/>
       <div className = "App-body">
       <NasaCard />
       </div>
