@@ -4,7 +4,7 @@ const NasaData = props => {
     return (
         <div className= "nasadata" key = "">
             <h2>{props.title}</h2> 
-            <h3>{props.date}</h3>
+            <h4>{props.date}</h4>
             <img className = "nasaimage" alt="nasa here" src = {props.url}/>
             <div className = "para">
             <p>{props.explanation}</p>
